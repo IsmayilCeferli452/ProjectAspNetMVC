@@ -2,6 +2,7 @@
 using FrontProjectAsp.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Project.Models;
 
 namespace FrontProjectAsp.Data
 {
@@ -11,5 +12,6 @@ namespace FrontProjectAsp.Data
 
         public DbSet<Setting> Settings { get; set; }
 
+        public DbSet<Carousel> Carousels { get; set; }
     }
 }
