@@ -1,7 +1,9 @@
+using FiorelloAsp.Services;
 using FrontProjectAsp.Data;
 using FrontProjectAsp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Project.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,8 @@ builder.Services.AddIdentity<AppUser, IdentityRole>()
 
 builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+
+builder.Services.AddScoped<ISettingService, SettingService>();
 
 var app = builder.Build();
 
