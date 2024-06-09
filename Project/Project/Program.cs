@@ -21,6 +21,10 @@ builder.Services.AddScoped<ISettingService, SettingService>();
 builder.Services.AddScoped<ICarouselService, CarouselService>();
 builder.Services.AddScoped<IInformationService, InformationService>();
 builder.Services.AddScoped<IAboutService, AboutService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
+builder.Services.AddScoped<IInstructorService, InstructorService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
 
 var app = builder.Build();
 

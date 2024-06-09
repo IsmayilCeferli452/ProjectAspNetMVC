@@ -6,6 +6,10 @@ namespace Project.ViewModels
     {
         public IEnumerable<Carousel> Carousels { get; set; }
         public IEnumerable<Information> Informations { get; set; }
-        public IEnumerable<About> AboutUs { get; set; }
+        public IEnumerable<About> About { get; set; }
+        public IEnumerable<Category> Categories { get; set; }
+        public IEnumerable<Course> Courses { get; set; }
+        public IEnumerable<Instructor> Instructors { get; set; }
+        public IEnumerable<Student> Students { get; set; }
     }
 }
