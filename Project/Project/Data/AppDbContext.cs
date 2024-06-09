@@ -11,7 +11,8 @@ namespace FrontProjectAsp.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Setting> Settings { get; set; }
-
         public DbSet<Carousel> Carousels { get; set; }
+        public DbSet<Information> Informations { get; set; }
+        public DbSet<About> About { get; set; }
     }
 }

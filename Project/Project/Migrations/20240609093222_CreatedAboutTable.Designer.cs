@@ -4,6 +4,7 @@ using FrontProjectAsp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Project.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240609093222_CreatedAboutTable")]
+    partial class CreatedAboutTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -306,7 +308,7 @@ namespace Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("AboutId")
+                    b.Property<int?>("AboutId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreateDate")
@@ -384,13 +386,9 @@ namespace Project.Migrations
 
             modelBuilder.Entity("Project.Models.Information", b =>
                 {
-                    b.HasOne("Project.Models.About", "About")
+                    b.HasOne("Project.Models.About", null)
                         .WithMany("Informations")
-                        .HasForeignKey("AboutId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("About");
+                        .HasForeignKey("AboutId");
                 });
 
             modelBuilder.Entity("Project.Models.About", b =>

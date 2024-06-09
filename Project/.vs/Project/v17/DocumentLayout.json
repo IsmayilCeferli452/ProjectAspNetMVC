@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\services\\carouselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\services\\carouselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\services\\interfaces\\icarouselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\services\\interfaces\\icarouselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|c:\\users\\ismay\\onedrive\\masa\u00FCst\u00FC\\projectaspnetmvc\\project\\project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCBDD8E-7E70-44AC-A193-785B369C22FD}|Project\\Project.csproj|solutionrelative:project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,73 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Program.cs",
-              "RelativeDocumentMoniker": "Project\\Program.cs",
-              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Program.cs",
-              "RelativeToolTip": "Project\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:55:26.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Project\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Project\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T15:51:48.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeVM.cs",
-              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\ViewModels\\HomeVM.cs",
-              "RelativeDocumentMoniker": "Project\\ViewModels\\HomeVM.cs",
-              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\ViewModels\\HomeVM.cs",
-              "RelativeToolTip": "Project\\ViewModels\\HomeVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:50:55.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Project\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Project\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:38:02.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T15:45:03.941Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -115,28 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CarouselService.cs",
-              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Services\\CarouselService.cs",
-              "RelativeDocumentMoniker": "Project\\Services\\CarouselService.cs",
-              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Services\\CarouselService.cs",
-              "RelativeToolTip": "Project\\Services\\CarouselService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Models\\Course.cs",
+              "RelativeToolTip": "Project\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:44:44.63Z",
+              "WhenOpened": "2024-06-09T11:25:19.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICarouselService.cs",
-              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Services\\Interfaces\\ICarouselService.cs",
-              "RelativeDocumentMoniker": "Project\\Services\\Interfaces\\ICarouselService.cs",
-              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Services\\Interfaces\\ICarouselService.cs",
-              "RelativeToolTip": "Project\\Services\\Interfaces\\ICarouselService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\ismay\\OneDrive\\Masa\u00FCst\u00FC\\ProjectAspNetMVC\\Project\\Project\\Models\\Category.cs",
+              "RelativeToolTip": "Project\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:44:30.629Z",
+              "WhenOpened": "2024-06-09T11:23:12.845Z",
               "EditorCaption": ""
             }
           ]
