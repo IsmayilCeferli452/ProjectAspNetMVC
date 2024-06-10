@@ -19,5 +19,6 @@ namespace FrontProjectAsp.Data
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<StudentCourse> StudentCourses { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
     }
 }

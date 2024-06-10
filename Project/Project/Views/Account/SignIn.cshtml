@@ -17,7 +17,7 @@
                 <form method="post" asp-action="SignIn">
                     <!-- Email input -->
                     <div data-mdb-input-init class="form-outline mb-4">
-                        <input asp-for="EmailOrUsername" type="text" id="form3Example3" class="form-control form-control-lg"
+                        <input asp-for="EmailOrUsername" type="text" autocomplete="off" id="form3Example3" class="form-control form-control-lg"
                                placeholder="Enter a valid email address or username" />
                         <label class="form-label mt-1" for="form3Example3">Email or username</label>
                         <span class="text-danger" asp-validation-for="EmailOrUsername"></span>
@@ -25,7 +25,7 @@
 
                     <!-- Password input -->
                     <div data-mdb-input-init class="form-outline mb-3">
-                        <input asp-for="Password" id="form3Example4" class="form-control form-control-lg"
+                        <input asp-for="Password" id="form3Example4" autocomplete="off" class="form-control form-control-lg"
                                placeholder="Enter password" />
                         <label class="form-label mt-1" for="form3Example4">Password</label>
                         <span class="text-danger" asp-validation-for="EmailOrUsername"></span>
