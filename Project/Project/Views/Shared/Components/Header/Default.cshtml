@@ -31,7 +31,26 @@
             </div>
             <a asp-controller="Contact" asp-action="Index" class="nav-item nav-link">Contact</a>
         </div>
-        <a asp-controller="Account" asp-action="Signin" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Login<i class="fa fa-arrow-right ms-3"></i></a>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Account" asp-action="Signin" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Login<i class="fa fa-arrow-right ms-3"></i></a>
+        }
+        else
+        {
+            <div  style="display:flex;">
+                <ul style="list-style-type: none;">
+                    <li>@User.Identity.Name</li>
+                    <form asp-controller="Account" asp-action="Logout">
+                    <li>
+                        <button type="submit">
+                            Logout
+                        </button>
+                    </li>
+                    </form>
+                </ul>
+            </div>
+
+        }
     </div>
 </nav>
 <!-- Navbar End -->
