@@ -3229,12 +3229,16 @@
       "PackagePath": "staticwebassets\\img\\course-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ismay\\OneDrive\\Masaüstü\\ProjectAspNetMVC\\Project\\Project\\wwwroot\\img\\course-3.jpg",
-      "PackagePath": "staticwebassets\\img\\course-3.jpg"
-    },
-    {
       "Id": "C:\\Users\\ismay\\OneDrive\\Masaüstü\\ProjectAspNetMVC\\Project\\Project\\wwwroot\\img\\main-qimg-af598899e984a1ee6fea13132af47cba-lq.jpg",
       "PackagePath": "staticwebassets\\img\\main-qimg-af598899e984a1ee6fea13132af47cba-lq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ismay\\OneDrive\\Masaüstü\\ProjectAspNetMVC\\Project\\Project\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ismay\\OneDrive\\Masaüstü\\ProjectAspNetMVC\\Project\\Project\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
     },
     {
       "Id": "C:\\Users\\ismay\\OneDrive\\Masaüstü\\ProjectAspNetMVC\\Project\\Project\\wwwroot\\img\\team-3.jpg",
