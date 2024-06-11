@@ -1,0 +1,55 @@
+﻿@model StudentVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table">
+            <h1 class="text-center">
+                Student
+            </h1>
+            <div>
+                <a class="btn btn-danger btn-sm mt-3 mb-3" asp-area="Admin" asp-controller="Student" asp-action="Create">
+                    <span>Create student</span>
+                    <i class="fa-solid fa-plus"></i>
+                </a>
+            </div>
+            @foreach (var item in Model.Students)
+            {
+                <thead>
+                    <tr>
+                        <th><b>Fullname</b></th>
+                        <th><b>Profession</b></th>
+                        <th><b>StudentInfo</b></th>
+                        <th><b>Image</b></th>
+                        <th><b>Operations</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            @item.Fullname
+                        </td>
+                        <td>
+                            @item.Profession
+                        </td>
+                        <td>
+                            @item.StudentInfo
+                        </td>
+                        <td>
+                            <img style="width: 8rem; height: 8rem;" src="~/img/@item.Image"></img>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" asp-area="Admin" asp-controller="Student" asp-action="Details" asp-route-id="@item.Id"><i class="fa-solid fa-info"></i></a>
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-marker"></i></a>
+                            <form class="d-inline" method="post" asp-action="Delete" asp-route-id="@item.Id">
+                                <button type="submit" class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>

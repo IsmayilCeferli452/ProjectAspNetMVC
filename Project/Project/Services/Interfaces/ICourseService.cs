@@ -4,6 +4,8 @@ namespace Project.Services.Interfaces
 {
     public interface ICourseService
     {
-        public Task<IEnumerable<Course>> GetAllAsync();
+        Task<IEnumerable<Course>> GetAllAsync();
+        Task<Course> GetByIdAsync(int id);
+        Task DeleteAsync(Course request);
     }
 }

@@ -79,9 +79,18 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input asp-for="Email" type="email" class="form-control" id="email" placeholder="Your Email" autocomplete="off">
-                                <label for="email">Your Email</label>
-                                <span class="text-danger" asp-validation-for="Email"></span>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <input asp-for="Email" type="email" value="@User.Identity.Name" class="form-control" id="email" placeholder="Your Email" autocomplete="off">
+                                    <label for="email">Your Email & Username</label>
+                                    <span class="text-danger" asp-validation-for="Email"></span>
+                                }
+                                else
+                                {
+                                    <input asp-for="Email" type="email" class="form-control" id="email" placeholder="Your Email" autocomplete="off">
+                                    <label for="email">Your Email</label>
+                                    <span class="text-danger" asp-validation-for="Email"></span>
+                                }
                             </div>
                         </div>
                         <div class="col-12">

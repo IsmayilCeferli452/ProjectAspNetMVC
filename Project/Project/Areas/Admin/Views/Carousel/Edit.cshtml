@@ -1,0 +1,26 @@
+﻿@model CarouselEditVM
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container mt-3">
+    <img src="~/img/@Model.Image" style="height: 12rem; width: 12rem;"></img>
+    <h1><b>Edit carousel image</b></h1>
+    <form class="form-sample mt-5" method="post" asp-action="Edit" enctype="multipart/form-data">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label"><b>Carousel image</b></label>
+                    <div class="col-sm-9">
+                        <input class="form-control" asp-for="NewImage" maxlength="100" placeholder="Add category..." />
+                        <span asp-validation-for="NewImage" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <a type="submit" class="btn btn-danger" asp-action="Index">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+

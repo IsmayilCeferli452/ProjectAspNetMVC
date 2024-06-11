@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Project.Services.Interfaces;
-using Project.ViewModels;
+using Project.ViewModels.Abouts;
 
 namespace Project.Controllers
 {

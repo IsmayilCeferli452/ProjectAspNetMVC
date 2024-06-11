@@ -5,6 +5,6 @@ namespace Project.Services.Interfaces
 {
     public interface IContactService
     {
-        public Task SendMessage(ContactVM request);
+        Task SendMessage(ContactVM request);
     }
 }

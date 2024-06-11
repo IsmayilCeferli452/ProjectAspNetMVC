@@ -1,0 +1,42 @@
+﻿@model AboutVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table">
+            <h1 class="text-center">
+                About
+            </h1>
+            @foreach (var item in Model.About)
+            {
+                <thead>
+                    <tr>
+                        <th><b>Title</b></th>
+                        <th><b>Description</b></th>
+                        <th><b>Image</b></th>
+                        <th><b>Operations</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            @item.Title
+                        </td>
+                        <td style="column-width: 200px; max-height: 200px; overflow-y: auto;">
+                            @item.Description
+                        </td>
+                        <td>
+                            <img style="width: 8rem; height: 8rem;" src="~/img/@item.Image"></img>
+                        </td>
+                        <td>
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-marker"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+
